@@ -22,7 +22,12 @@ class _NoState extends State<No> {
         body: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           crossAxisAlignment: CrossAxisAlignment.center,
-          children: [],
+          children: [
+            Text(
+              'hello world',
+              style: TextStyle(color: Colors.pink),
+            )
+          ],
         ));
   }
 }
